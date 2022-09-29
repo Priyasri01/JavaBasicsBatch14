@@ -1,0 +1,35 @@
+recap
+
+Logical AND && -- All condition must be true
+logical or || - at least 1condition must be true or 
+
+compiler always check our code before giving it it's default values:
+
+int =0;
+double=0.0;
+boolean = false;
+String and other non primitive =null;
+
+compiler compiles source into binary
+
+===============================================================
+
+" if statment" 
+ if statment is condition based.
+  so it execute block of code until it find the match.
+ 
+=====================================================
+switch case is value based.it will check only  the equality 
+it knows the value-> jump into matching case 
+it's faster
+no duplicated case in switch 
+limitation for switch case
+switch case cannot logical operator like &&,||, !=
+switch case can not do relational operators like <,>, ==, !=
+Switch cannot work with boolean values
+switch cannot work with float/double & long data type
+switch syntax
+
+switch(varibale){
+
+}

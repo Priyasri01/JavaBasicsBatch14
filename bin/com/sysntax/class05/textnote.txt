@@ -1,0 +1,98 @@
+today calss is for logical operator 
+
+recap
+"if statement" suppose to be boolean condition always . it will check only true or false . if it's true it will execute 
+Java Class 5
+
+If statement
+
+SYNTAX
+
+if (boolean condition) {
+
+}
+-------------------------
+boolean weekend =false;
+
+if (weekend) {
+	System.out.println("It is Java class");
+}
+
+String day="Saturday"; 
+
+if (day.equals("Saturday")) {
+	System.out.println("It is Java class");
+}
+
+int date=3;
+
+if(date==3){ // if we have to check only one condition then we can use if condition.
+	System.out.println(Today is the third);
+}
+
+---------------------
+SYNTAX
+
+if (boolean condition) { // if we have to chekc one or two condtion then we can use if else condition.
+		code A;
+} else {
+		code B;
+}
+--------------------------
+
+if (boolean condition) { /* this if else if condition we call it as ladder . because it will read  step by step Condition  . 
+                          if we have more condition to check then we can use if else if condition.*/
+		code A;
+} else if (boolean condition) {
+	code B;
+} else if (boolean condition) {
+	code C;
+}
+------------------------
+
+Nested if - if statement inside another if 
+
+if (boolean condition) { -> outer if
+	
+	if(boolean condition) { -> inner if
+
+	}
+
+}
+-------------------------------------
+
+Scanner is a class - used to take input from a user
+
+
+----------------------------
+Logical Operators
+
+Assignment operator: =
+Arithmetic : +, -, *, /, %
+Relational: >, >=, <, <=, ==, !=
+
+Logical: &&, ||, !
+
+Logical AND &&
+
+true && true  -->  TRUE
+true && false -->  FALSE
+false && true -->  FALSE
+false && false --> FALSE
+
+Logical OR ||
+
+true || true --> TRUE
+true || false --> TRUE
+false || true --> TRUE
+false || false --> FALSE
+
+
+
+	Logical or ||
+	
+	true || true -->true
+	true || false -->true
+	false || true -->true
+	false || false -->true
+	

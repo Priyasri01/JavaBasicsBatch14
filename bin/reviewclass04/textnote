@@ -1,0 +1,10 @@
+loops:
+
+loops in java help us execute  a piece of code again and again until the codition is true.
+to avoid redundancy in code. three are mainly 4 types of loops
+
+why we should learn  about loop?
+	because loops help us write cleaner and scalable code.for example if u have to check password feild on a webage you can create different variation of data in a excel sheet then you
+	pick all the values ony by one and test the feild.
+	
+	for(intialization, decalaration, increment)==> meaning for(Starting point; ending point, step)

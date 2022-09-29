@@ -1,0 +1,14 @@
+About loop:
+
+why do we need loop?
+to avoid code Redundancy
+to save time
+
+how many loops do we have in java
+4 , they are
+ while
+ do while
+  for loop
+  enhanced for loop/for each loop/advanced for loop
+  
+  for loop:

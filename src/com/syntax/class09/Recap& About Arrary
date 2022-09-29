@@ -1,0 +1,24 @@
+Recap
+
+break --- break/exist loop block
+continue - skip current execution/iteration
+
+nested loop -- loop inside another loop
+
+=========================================================================
+About Array
+
+int[] rnos= new int[5]; ====> Is data type basically represent what is type of data store inside the array.
+int[] rnos= new int[5]; ===> int[]-->data type , rnos --> is refer variable & "after =" is creating the object in heap memory ." BEFORE=" IS COMPILER TIME & "AFTER =" IS RUNTIME
+         = new keyword which  is used to create an objects
+
+What is dynamic memory allocation? 
+at the run time/execution time memory is allocated.
+
+all the object  are in heap
+heap objects are not continues  in  java. it's depedent on JVM.
+DMA (Dynamic memory allocations
+
+Primitve data type are store in stack memory 
+
+non-primitive data are store in heap memory

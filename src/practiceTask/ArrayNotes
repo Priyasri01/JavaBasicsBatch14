@@ -1,0 +1,108 @@
+what is an array?
+	-it's container object that hold multiple  value of the same data type.
+	-it is fixed in size that means you can't increase the size of array at run time.
+	-it stores the value on the basis of index value. The first elements of an array starts with zero
+	-Every array in java is an object, hence we can create array by using new  keywords.
+	-Ascess the elements of array by using index #(ex: int name[0], int name[1]...so on note: 0,1 are index #
+	- At the time of array creation we must be specify the size  ex:  int array = new int[3];
+	- Array is data structure , it works based on the index.
+	
+syntax :
+data type[] variable name;(preferred way)  
+data type variable name[];(Note: this works but not preferred way.
+
+Note: At the time of array declaration we can not specify the size of the array.
+ex:int[5] a = new int[] ; (this is wrong, we can' t assign the size before equal sign.)
+
+we can create an array in two way one is long and other one is short.
+
+ example of creating array(Long): 
+ 
+ //declare an array
+ int[] array ; (data type=int[] , variable name=array);
+ 
+ //initialize or create an array
+ array = new int[3]; // the size of array is 3(basically  in here creating an  array and assigning the Size of the array.)
+ what is mean by 3, it means we want to store three elements in this particular container/array.
+ 
+ //Assign value for each index.
+ array[0]=10;
+ array[1]=20;
+ array[2]=30;
+ 
+ //access array elements, by provide the index# of array.
+ System.out.println(array[1]);// Result : 20 ==> note in here we getting out for single elements, in case if we want to print all element then we can use for loop and enhance loop
+ 
+ example of creating array(Short):  
+ 
+ int[] array = {10,20,30}; 
+  System.out.printlm(array[2]) // result: 30
+  
+  Note:
+ 1) At the time of array creation we must be specify the size of array otherwise get an compile time error. 
+   Example: 
+   int[] a= new int[]---> Invalid, will get compiler error
+   int[] a= new int[5]--->Valid
+   
+2) if we specify array size as negative value , then we get run-time error." negativeArraySizeException".
+
+3) To specify array size the allowed data types are:
+      byte, short, int, char.
+   Note: if we use other data type then we will get an compile time error.
+   
+4)The maximum allowed size of array in java is based on the maximum value of data type.(like byte - 8bit , short-16 bit,  int -32 bit & char -16 bit)
+      
+
+How to find the length of an array, we can use the following Syntax:
+
+variable name.length;
+
+ex: String [] name= {"peter", "rose", "bob"};
+
+System.out.println(name.length); //output:3 , this ".length" property tells how many elements in this array.
+
+How to print all elements/values from an array ? we can use in two ways, they are:
+
+for loop  Syntax
+
+for (int i=0 ; i<name.length; i++){
+       
+       System.out.println(name[i]); // we get the out put  by using varibale , because for every iteration the value of i will be changed based on the elements available on the array.
+       
+       }
+for enhance loop/advance loop/ each loop
+
+-enhace loop is cleaner
+-it loops  only one direction
+-enhance loop works only when we work with array or collection.
+
+for(int nam : name){ //data type created new name :  array name- from where we want to iterative the elements
+
+  System.out.println(nam); // note: in the loop  body we use the loop variable which we created(nam) rather than using an indexed array elements( like i)
+
+}
+  
+ 
+Why do we need it / Advantage of array:
+One variable can store multiple value.
+code Optimization , meaning no need to declare a lot of variable of same data type.
+we can retrieve any data from array with the help of index value
+
+Disadvantage:
+The main limitation of array is size limited. once we declare array there is no chance to increase or  decrease the size of array according to our requirements during the run time. Because array is static
+Array can only store same datatype.
+
+int[] nums =new int[4];
+nums[0]=10;
+
+System.out.println(nums[1]); //OutPut: 0 , eventhough we did assign value for index 1 , but we got zero. Because we recived the default value.
+System.out.println(nums[5]);//OutPut: Run Time error(RE) with message ArrayIndexOutOfBoundexception:5. As we know array is fixed in size.
+
+Class 10: 2D Array
+
+type of array , 2D array , 3D array D-means dimentional 
+2D  array is a array of array.
+2D array is collection of single dimention array /1D array.
+
+
+

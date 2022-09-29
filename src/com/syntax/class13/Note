@@ -1,0 +1,12 @@
+String Class:
+ 	String is the most widely used class in Java. It helps us store and manipulate test based data.
+
+
+why we should learn about string class and its method:
+	String class has a lot of methods that can help us manipulate the text based data.
+	that why we don't need to write any logic we can simple create the object of the string class and  can use the method form that class.
+	
+Syntax:
+ String str= new String("I can't sleep if i don't solve Repls");
+ String str2 ="I Can't sleep if don't slove repls;
+ str2.length();

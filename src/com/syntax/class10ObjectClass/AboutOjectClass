@@ -1,0 +1,66 @@
+
+
+what is object?
+ Everything around us is an object
+
+
+
+ex: 
+class : Human  ---- Object:Man,woman, girls, boy and so on...
+class:MobilePhone ----- Object:iPhone, samsung S6, micro max  and so on...
+
+
+Real world objects shows 2 characteristics
+
+1. State             2. Behaviour
+ ex: Name 					barking
+     color					wagging full
+     Breed
+     
+ In software world 
+ 
+ we called state as Field/Variable  & Behaviour  as Medthod/Functions
+ 
+ 
+ what is class ?
+ 
+ A class is the blueprint/template
+  from which individual objects are created.
+===============================================================================================================
+  
+  A class is collection of variables and methods.
+  An object is an instance of class(Physical)
+  A Method is peace of code which will perform certain task.
+  Method should be part of a class.
+  
+  
+ declaration  of class
+ ---------------------
+ 
+ class Employee
+ {
+ variables
+ methods
+ }
+ 
+ 
+ create an object for the class
+ --------------------------------
+ 
+ Employee emp1= new Employee();
+ 
+ Employee---> class name
+ emp1----> reference vearibale of object
+ Employee()---->instantiation
+ 
+ Employee emp2= new Employee();
+  
+ 
+ how many ways we can initilize the values to class variables
+ -----------------------------------------------------------
+ 1) Using object(directly)
+ 2) Using construction
+ 3) Using method
+ 
+ constructor is a kind of method, but the constructor name should have same name as class.
+ 
