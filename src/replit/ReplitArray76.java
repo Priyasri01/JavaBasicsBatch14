@@ -9,7 +9,7 @@ public class ReplitArray76 {
 		
 		Scanner in = new Scanner(System.in);
 	    String[] dayOfWeek =new String[7];
-String week=null;
+	    String week=null;
 	    for(int i =0; i<dayOfWeek.length; i++)
 	      {
 	        System.out.println(" please enter day " + (i+1) + " of the week");

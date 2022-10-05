@@ -12,11 +12,11 @@ public class Task07PrimeNumOrNot {
 	        boolean isPrime=true;
 	        if (num > 1) {
 
-	            for(int i=2;i<=num;i++) { // we can put either <=num or < num  . 
+	            for(int i=2;i<num;i++) { // we can put either <=num or < num  . 
 	            							
 	                if(num%i==0) {
 	                    isPrime=false;
-	                 break;
+	                break;
 	                }
 	              
 	            }

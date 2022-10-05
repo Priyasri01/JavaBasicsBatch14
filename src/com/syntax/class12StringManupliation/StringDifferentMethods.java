@@ -82,7 +82,7 @@ public class StringDifferentMethods {
 		System.out.println();
 		System.out.println("**************************************NextMethodendsWith() *******************************************************");
 		//this method checks if a string ends with a specific letter or word.
-		System.out.println(str6.startsWith("j")); // will return false, because the string  doesn't have j in the end.
+		System.out.println(str6.endsWith("y")); // will return false, because the string  doesn't have j in the end.
 		
 		System.out.println();
 		System.out.println("**************************************NextMethodcontains() *******************************************************");
@@ -221,7 +221,10 @@ public class StringDifferentMethods {
 	
 		String str14 = "Batch 14 is good 81234823!@##%#^ ASAKBSAKAJSBN kajbjakfdnb"; //replaceAll it takes a pattern  and replace all the characters that follow that pattern
 		System.out.println(str14.replaceAll("[a-z]", "#")); // in here we are java to remove all the small letter from a to z and replace to "#" .output will see all instead of a-z we will see '#'.
-	
+	 
+		String Name = "Hello Syntax friends";
+		
+		System.out.println(Name.replaceAll("Hello", "Welcome").replace("friends", "family"));
 	}
 
 }
